@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Quod Libet: Soundcloud connection</title>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://quodlibet.github.io/fonts/font-mfizz.css">
+  <link rel="stylesheet" href="https://media.readthedocs.org/css/sphinx_rtd_theme.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style type="text/css">
+    body {
+      width: 80%;
+      max-width: 800px;
+      margin: auto auto;
+      font-size: 1.0rem;
+      color: #404040;
+      padding: 2rem;
+    }
+
+    h2 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    input[readonly] {
+      cursor: pointer;
+      font-family: monospace;
+      font-size: 1.5rem;
+      position: relative;
+      width: 30rem;
+      margin-top: 0;
+      margin-bottom: 0.25em;
+    }
+
+    pre > code {
+      font-size: 0.9rem;
+      padding: 0.3rem;
+    }
+
+    pre > code:before {
+      content: "$ "
+    }
+
+    #msg {
+      padding: 2rem 1rem;
+      text-align: center;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <h1 id="headline">Connecting</h1>
+
+  <img src="https://connect.soundcloud.com/2/btn-connect-l.png" alt="Soundcloud logo"/>
+  <img src="https://avatars2.githubusercontent.com/u/11544695" width="70" alt="Quod Libet logo"/>
+
+  <h2>Next step</h2>
+
+  <div>
+    <p>If you have the <code>quodlibet://</code> URL scheme registered,
+      this will happen automatically. Otherwise, copy the code below and enter it to Quod Libet</p>
+
+    <div align="center"><input id="theCode" type="text" readonly="" value="" maxlength="32"></div>
+    <p>You can then close this window.</p>
+  </div>
+
+  <h2>Registering Quod Libet URLs</h2>
+
+  <p>On Linux, you can generally do this with:</p>
+  <pre><code>xdg-mime default quodlibet.desktop x-scheme-handler/quodlibet</code></pre>
+
+  <div id="msg"></div>
+
+
+  <script>
+    function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&amp;");
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == variable) {
+          return pair[1]
+        }
+      }
+    }
+
+    function selectMe(selector) {
+      $(selector).on("focus", function (e) {
+        e.target.select();
+        $(e.target).one('mouseup', function (e) {
+          e.preventDefault();
+        });
+      });
+    }
+
+    selectMe("#theCode");
+
+    console.log("Finding code...");
+    var code = getQueryVariable("code");
+    if (code && code.length > 8) {
+      var url = "quodlibet://callbacks/soundcloud?code=" + code;
+      $("#headline").text("Connected!");
+      $("#theCode").val(code);
+      $("#msg").html("Redirecting to: " + '<a href="' + url + '">' + url + '</a>&hellip;');
+      window.location.replace(url);
+      // Worth a try...
+      window.close()
+    } else {
+      console.error("Code not found");
+      $("#headline").text("Error");
+      $("#msg").text("Code not found, mis-match with QL app?");
+    }
+  </script>
+</div>
+</body>
