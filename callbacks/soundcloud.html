@@ -104,6 +104,7 @@
       $("#headline").text("Connected!");
       $("#theCode").val(code);
       $("#msg").html("Redirecting to: " + '<a href="' + url + '">' + url + '</a>&hellip;');
+      $("#successful").show()
       window.location.replace(url);
       // Worth a try...
       window.close()
