@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <head>
   <title>Quod Libet: Soundcloud connection</title>
-  <!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://quodlibet.github.io/fonts/font-mfizz.css">
   <link rel="stylesheet" href="https://media.readthedocs.org/css/sphinx_rtd_theme.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -40,10 +38,14 @@
       content: "$ "
     }
 
+    #successful {
+      display: none;
+    }
+
     #msg {
       padding: 2rem 1rem;
       text-align: center;
-      opacity: 0.6;
+      opacity: 0.65;
     }
   </style>
 </head>
@@ -56,21 +58,19 @@
   <img src="https://connect.soundcloud.com/2/btn-connect-l.png" alt="Soundcloud logo"/>
   <img src="https://avatars2.githubusercontent.com/u/11544695" width="70" alt="Quod Libet logo"/>
 
-  <h2>Next step</h2>
+  <div id="successful">
+    <h2>Next step</h2>
+      <p>If you have the <code>quodlibet://</code> URL scheme registered,
+        this will happen automatically. Otherwise, copy the code below and enter it to Quod Libet</p>
 
-  <div>
-    <p>If you have the <code>quodlibet://</code> URL scheme registered,
-      this will happen automatically. Otherwise, copy the code below and enter it to Quod Libet</p>
+      <div align="center"><input id="theCode" type="text" readonly="" value="" maxlength="32"></div>
+      <p>You can then close this window.</p>
 
-    <div align="center"><input id="theCode" type="text" readonly="" value="" maxlength="32"></div>
-    <p>You can then close this window.</p>
+    <h2>Registering Quod Libet URLs</h2>
+
+    <p>On Linux, you can generally do this with:</p>
+    <pre><code>xdg-mime default quodlibet.desktop x-scheme-handler/quodlibet</code></pre>
   </div>
-
-  <h2>Registering Quod Libet URLs</h2>
-
-  <p>On Linux, you can generally do this with:</p>
-  <pre><code>xdg-mime default quodlibet.desktop x-scheme-handler/quodlibet</code></pre>
-
   <div id="msg"></div>
 
 
@@ -109,7 +109,7 @@
       window.close()
     } else {
       console.error("Code not found");
-      $("#headline").text("Error");
+      $("#headline").text("Connect Error");
       $("#msg").text("Code not found, mis-match with QL app?");
     }
   </script>
