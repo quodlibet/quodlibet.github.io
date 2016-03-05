@@ -81,7 +81,7 @@
       for (var i = 0; i < vars.length; i++) {
         var pair = vars[i].split("=");
         if (pair[0] == variable) {
-          return pair[1]
+          return decodeURIComponent(pair[1])
         }
       }
     }
@@ -110,7 +110,10 @@
     } else {
       console.error("Code not found");
       $("#headline").text("Connect Error");
-      $("#msg").text("Code not found, mis-match with QL app?");
+      err = getQueryVariable("error_description");
+      var msg = "Auth code could not be found, mis-match with QL app?";
+      if (err) msg += "<br />Got this error: <code>" + err + "</code>"
+      $("#msg").html(msg);
     }
   </script>
 </div>
