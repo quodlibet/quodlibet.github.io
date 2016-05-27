@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Quod Libet (OS X)</title>
+    <link>https://quodlibet.readthedocs.io</link>
+    <item>
+      <title>Version 3.6.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-1</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.6.1.zip"  sparkle:version="3.6.1" length="50289185" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.2 (v2)</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.2-v2.zip"  sparkle:version="3.5.2.1" length="49672053" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.2</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.2.zip"  sparkle:version="3.5.2" length="49674637" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-1</link>
+      <pubDate>Wed, 14 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.1.zip"  sparkle:version="3.5.1" length="49717701" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.0 (v2)</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.0-v2.zip"  sparkle:version="3.5.0.1" length="49717615" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.0.zip"  sparkle:version="3.5.0" length="49719899" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.4.1 (v2)</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.4.1.zip"  sparkle:version="3.4.1.1" length="52412407" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.4.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.4.1.zip"  sparkle:version="3.4.1" length="52412407" type="application/octet-stream" />
+    </item>
+</channel>
+</rss>

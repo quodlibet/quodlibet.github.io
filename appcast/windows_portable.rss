@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Quod Libet / Ex Falso (Windows Portable)</title>
+    <link>https://quodlibet.readthedocs.io</link>
+    <item>
+      <title>Version 3.6.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-1</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.6.1-portable.exe" sparkle:os="windows" sparkle:version="3.6.1" length="27289341" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.6.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-0</link>
+      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.6.0-portable.exe" sparkle:os="windows" sparkle:version="3.6.0" length="27285545" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.2</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.5.2-portable.exe" sparkle:os="windows" sparkle:version="3.5.2" length="31137078" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-1</link>
+      <pubDate>Wed, 14 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.5.1-portable.exe" sparkle:os="windows" sparkle:version="3.5.1" length="31132755" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.5.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.5.0-portable.exe" sparkle:os="windows" sparkle:version="3.5.0" length="31128581" type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 3.4.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.4.1-portable.exe" sparkle:os="windows" sparkle:version="3.4.1" length="31078762" type="application/octet-stream" />
+    </item>
+</channel>
+</rss>
