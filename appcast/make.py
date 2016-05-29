@@ -42,7 +42,7 @@ def release_date(date):
 
 
 BUILDS = {
-    "quodlibet_osx": {
+    "osx-quodlibet": {
         "title": "Quod Libet (OS X)",
         "os": "",
         "releases": [
@@ -56,7 +56,7 @@ BUILDS = {
             ("3.4.1", "0", BITBUCKET + "QuodLibet-%s.zip"),
         ],
     },
-    "exfalso_osx": {
+    "osx-exfalso": {
         "title": "Ex Falso (OS X)",
         "os": "",
         "releases": [
@@ -82,7 +82,7 @@ BUILDS = {
             ("3.4.1", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
         ],
     },
-    "windows_portable": {
+    "windows-portable": {
         "title": "Quod Libet / Ex Falso (Windows Portable)",
         "os": "windows",
         "releases": [
@@ -94,7 +94,7 @@ BUILDS = {
             ("3.4.1", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
         ],
     },
-    "linux": {
+    "default": {
         "title": "Quod Libet / Ex Falso",
         "os": "linux",
         "releases": [
