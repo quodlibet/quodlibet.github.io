@@ -178,7 +178,7 @@ def main():
 
         result = TEMPLATE % {
             "title": title,
-            "link": "https://quodlibet.readthedocs.io",
+            "link": "https://quodlibet.readthedocs.io/en/latest/downloads.html",
             "items": "".join(items),
         }
 

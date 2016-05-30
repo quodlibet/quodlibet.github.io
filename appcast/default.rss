@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Quod Libet / Ex Falso</title>
-    <link>https://quodlibet.readthedocs.io</link>
+    <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
       <title>Version 3.6.2</title>
       <sparkle:releaseNotesLink>
