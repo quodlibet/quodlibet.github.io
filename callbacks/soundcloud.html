@@ -42,6 +42,16 @@
       display: none;
     }
 
+    ol li {
+      list-style: decimal inside;
+      margin-bottom: 0.25em;
+    }
+    ol {
+      font-size: 16px;
+      margin-top: -0.75rem;
+      margin-bottom: 1rem;
+    }
+
     #msg {
       padding: 2rem 1rem;
       text-align: center;
@@ -51,25 +61,29 @@
 </head>
 <body>
 <div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 
   <h1 id="headline">Connecting</h1>
 
-  <img src="https://connect.soundcloud.com/2/btn-connect-l.png" alt="Soundcloud logo"/>
-  <img src="https://avatars2.githubusercontent.com/u/11544695" width="70" alt="Quod Libet logo"/>
+  <img src="//connect.soundcloud.com/2/btn-connect-l.png" alt="Soundcloud logo"/>
+  <span style="position: relative; top: 0.25em; font-size: 3em; padding-left: 1rem; ">+</span>
+  <img src="//avatars2.githubusercontent.com/u/11544695" width="70" alt="Quod Libet logo"/>
 
   <div id="successful">
     <h2>Next step</h2>
-      <p>If you have the <code>quodlibet://</code> URL scheme registered,
-        this will happen automatically. Otherwise, copy the code below and enter it to Quod Libet</p>
-
+      <p>If this doesn't happen automatically (see below) then simply:</p>
+      <ol style="list-style: inside decimal">
+        <li>Copy the code below.</li>
+        <li>In Quod Libet, click the connect button in the Soundcloud browser again</li>
+        <li>Paste the code and click OK</li>
+        <li>Done! You can now close this window.</li>
+      </ol>
       <div align="center"><input id="theCode" type="text" readonly="" value="" maxlength="32"></div>
-      <p>You can then close this window.</p>
 
-    <h2>Registering Quod Libet URLs</h2>
-
-    <p>On Linux, you can generally do this with:</p>
-    <pre><code>xdg-mime default quodlibet.desktop x-scheme-handler/quodlibet</code></pre>
+    <h2>Optional setup</h2>
+    <p>For this process to happen automatically, a custom <code>quodlibet://</code> protocol is used,
+    which can be associated with an application by your OS. On Linux, you can generally do this with <code>xdg-mime default quodlibet.desktop x-scheme-handler/quodlibet</code>.
+    If you're on OS X, you can <a target="_blank" href="http://superuser.com/a/548122">use this approach</a> instead.</p>
   </div>
   <div id="msg"></div>
   <iframe id="protocol-redirect" src="about:blank" width="0" height="0" frameborder="0" scrolling="no"></iframe>
@@ -104,7 +118,7 @@
       var url = "quodlibet://callbacks/soundcloud?code=" + code;
       $("#headline").text("Connected!");
       $("#theCode").val(code);
-      $("#msg").html("Redirecting to: " + '<a href="' + url + '">' + url + '</a>&hellip;');
+      //$("#msg").html("Redirecting to: " + '<a href="' + url + '">' + url + '</a>&hellip;');
       $("#successful").show()
       document.getElementById('protocol-redirect').src = url;
     } else {
