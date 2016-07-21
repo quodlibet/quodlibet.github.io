@@ -72,6 +72,7 @@
     <pre><code>xdg-mime default quodlibet.desktop x-scheme-handler/quodlibet</code></pre>
   </div>
   <div id="msg"></div>
+  <iframe id="protocol-redirect" src="about:blank" width="0" height="0" frameborder="0" scrolling="no"></iframe>
 
 
   <script>
@@ -105,9 +106,7 @@
       $("#theCode").val(code);
       $("#msg").html("Redirecting to: " + '<a href="' + url + '">' + url + '</a>&hellip;');
       $("#successful").show()
-      window.location.replace(url);
-      // Worth a try...
-      window.close()
+      document.getElementById('protocol-redirect').src = url;
     } else {
       console.error("Code not found");
       $("#headline").text("Connect Error");
