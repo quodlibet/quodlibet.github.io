@@ -14,6 +14,7 @@ import feedparser
 BITBUCKET = "https://bitbucket.org/lazka/quodlibet/downloads/"
 
 RELEASES = [
+    "3.7.0 (2016-08-27)",
     "3.6.2 (2016-05-24)",
     "3.6.1 (2016-04-05)",
     "3.6.0 (2016-03-24)",
@@ -46,6 +47,7 @@ BUILDS = {
         "title": "Quod Libet (OS X)",
         "os": "",
         "releases": [
+            ("3.7.0", "0", BITBUCKET + "QuodLibet-%s.dmg"),
             ("3.6.1", "0", BITBUCKET + "QuodLibet-%s.zip"),
             ("3.5.2", "1", BITBUCKET + "QuodLibet-%s-v2.zip"),
             ("3.5.2", "0", BITBUCKET + "QuodLibet-%s.zip"),
@@ -60,6 +62,7 @@ BUILDS = {
         "title": "Ex Falso (OS X)",
         "os": "",
         "releases": [
+            ("3.7.0", "0", BITBUCKET + "ExFalso-%s.dmg"),
             ("3.6.1", "0", BITBUCKET + "ExFalso-%s.zip"),
             ("3.5.2", "1", BITBUCKET + "ExFalso-%s-v2.zip"),
             ("3.5.2", "0", BITBUCKET + "ExFalso-%s.zip"),
@@ -74,6 +77,7 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso (Windows)",
         "os": "windows",
         "releases": [
+            ("3.7.0", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
             ("3.6.1", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
             ("3.6.0", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
             ("3.5.2", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
@@ -86,6 +90,7 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso (Windows Portable)",
         "os": "windows",
         "releases": [
+            ("3.7.0", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
             ("3.6.1", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
             ("3.6.0", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
             ("3.5.2", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
@@ -98,6 +103,7 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso",
         "os": "linux",
         "releases": [
+            ("3.7.0", "0", ""),
             ("3.6.2", "0", ""),
             ("3.6.1", "0", ""),
             ("3.6.0", "0", ""),
