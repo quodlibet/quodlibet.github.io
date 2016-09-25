@@ -4,6 +4,15 @@
     <title>Quod Libet / Ex Falso</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 3.7.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-1</link>
+      <pubDate>Sun, 25 Sep 2016 00:00:00 +0000</pubDate>
+      <enclosure url="" sparkle:os="linux" sparkle:version="3.7.1" length="0" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 3.7.0</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-0
