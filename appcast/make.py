@@ -14,6 +14,7 @@ import feedparser
 BITBUCKET = "https://bitbucket.org/lazka/quodlibet/downloads/"
 
 RELEASES = [
+    "3.8.1 (2017-01-23)",
     "3.8.0 (2016-12-29)",
     "3.7.1 (2016-09-25)",
     "3.7.0 (2016-08-27)",
@@ -113,6 +114,7 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso",
         "os": "linux",
         "releases": [
+            ("3.8.1", "0", ""),
             ("3.8.0", "0", ""),
             ("3.7.1", "0", ""),
             ("3.7.0", "0", ""),
