@@ -9,9 +9,11 @@
 import time
 import urllib2
 import feedparser
+from multiprocessing.pool import ThreadPool
 
 
 BITBUCKET = "https://bitbucket.org/lazka/quodlibet/downloads/"
+TARBALLS = "https://bitbucket.org/lazka/quodlibet-files/raw/default/releases/"
 
 RELEASES = [
     "3.8.1 (2017-01-23)",
@@ -114,17 +116,17 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso",
         "os": "linux",
         "releases": [
-            ("3.8.1", "0", ""),
-            ("3.8.0", "0", ""),
-            ("3.7.1", "0", ""),
-            ("3.7.0", "0", ""),
-            ("3.6.2", "0", ""),
-            ("3.6.1", "0", ""),
-            ("3.6.0", "0", ""),
-            ("3.5.2", "0", ""),
-            ("3.5.1", "0", ""),
-            ("3.5.0", "0", ""),
-            ("3.4.1", "0", ""),
+            ("3.8.1", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.8.0", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.7.1", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.7.0", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.6.2", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.6.1", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.6.0", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.5.2", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.5.1", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.5.0", "0", TARBALLS + "quodlibet-%s.tar.gz"),
+            ("3.4.1", "0", TARBALLS + "quodlibet-%s.tar.gz"),
         ],
     },
 }
@@ -156,6 +158,13 @@ length="%(length)s" type="application/octet-stream" />
 """
 
 
+def get_size(url):
+    r = urllib2.urlopen(url)
+    length = r.info().get("Content-Length", "0")
+    r.close()
+    return url, length
+
+
 def main():
     release_dates = {}
     for r in RELEASES:
@@ -163,20 +172,26 @@ def main():
         date = release_date(date.strip("()"))
         release_dates[version] = date
 
+    url_lengths = {}
+    for t in BUILDS.values():
+        for r in t["releases"]:
+            url_lengths[r[-1] % r[0]] = ""
+
+    pool = ThreadPool(20)
+    for url, length in pool.imap_unordered(get_size, url_lengths):
+        url_lengths[url] = length
+    pool.close()
+    pool.join()
+
     for type_id, type_ in BUILDS.items():
         items = []
         title = type_["title"]
         os_ = type_["os"]
         for version, build, url in type_["releases"]:
             print type_id, version
-            try:
-                url = url % version
-            except TypeError:
-                pass
-            if url:
-                r = urllib2.urlopen(url)
-                length = r.info().get("Content-Length", "0")
-                r.close()
+            url = url % version
+            if url in url_lengths:
+                length = url_lengths[url]
             else:
                 length = "0"
             version_desc = version
