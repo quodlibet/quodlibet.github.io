@@ -52,6 +52,7 @@ BUILDS = {
         "title": "Quod Libet (OS X)",
         "os": "",
         "releases": [
+            ("3.8.1", "0", BITBUCKET + "QuodLibet-%s.dmg"),
             ("3.8.0", "0", BITBUCKET + "QuodLibet-%s.dmg"),
             ("3.7.1", "0", BITBUCKET + "QuodLibet-%s.dmg"),
             ("3.7.0", "0", BITBUCKET + "QuodLibet-%s.dmg"),
@@ -69,6 +70,7 @@ BUILDS = {
         "title": "Ex Falso (OS X)",
         "os": "",
         "releases": [
+            ("3.8.1", "0", BITBUCKET + "ExFalso-%s.dmg"),
             ("3.8.0", "0", BITBUCKET + "ExFalso-%s.dmg"),
             ("3.7.1", "0", BITBUCKET + "ExFalso-%s.dmg"),
             ("3.7.0", "0", BITBUCKET + "ExFalso-%s.dmg"),
@@ -86,6 +88,7 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso (Windows)",
         "os": "windows",
         "releases": [
+            ("3.8.1", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
             ("3.8.0", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
             ("3.7.1", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
             ("3.7.0", "0", BITBUCKET + "quodlibet-%s-installer.exe"),
@@ -101,6 +104,7 @@ BUILDS = {
         "title": "Quod Libet / Ex Falso (Windows Portable)",
         "os": "windows",
         "releases": [
+            ("3.8.1", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
             ("3.8.0", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
             ("3.7.1", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
             ("3.7.0", "0", BITBUCKET + "quodlibet-%s-portable.exe"),
