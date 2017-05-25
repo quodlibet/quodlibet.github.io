@@ -4,13 +4,22 @@
     <title>Quod Libet (OS X)</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 3.9.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-0</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.9.0/QuodLibet-3.9.0.dmg"  sparkle:version="3.9.0" length="49744108" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 3.8.1</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-8-1
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-8-1</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.8.1.dmg"  sparkle:version="3.8.1" length="45266854" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.8.1/QuodLibet-3.8.1.dmg"  sparkle:version="3.8.1" length="45266854" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.8.0</title>
@@ -19,7 +28,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-8-0</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.8.0.dmg"  sparkle:version="3.8.0" length="45236717" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.8.0/QuodLibet-3.8.0.dmg"  sparkle:version="3.8.0" length="45236717" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.7.1</title>
@@ -28,7 +37,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-1</link>
       <pubDate>Sun, 25 Sep 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.7.1.dmg"  sparkle:version="3.7.1" length="43098979" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.7.1/QuodLibet-3.7.1.dmg"  sparkle:version="3.7.1" length="43098979" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.7.0</title>
@@ -37,7 +46,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-0</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.7.0.dmg"  sparkle:version="3.7.0" length="43146408" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.7.0/QuodLibet-3.7.0.dmg"  sparkle:version="3.7.0" length="43146408" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.6.1</title>
@@ -46,7 +55,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-1</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.6.1.zip"  sparkle:version="3.6.1" length="50289185" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.6.1/QuodLibet-3.6.1.zip"  sparkle:version="3.6.1" length="50289185" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.2 (v2)</title>
@@ -55,7 +64,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.2-v2.zip"  sparkle:version="3.5.2.1" length="49672053" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.2/QuodLibet-3.5.2-v2.zip"  sparkle:version="3.5.2.1" length="49672053" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.2</title>
@@ -64,7 +73,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.2.zip"  sparkle:version="3.5.2" length="49674637" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.2/QuodLibet-3.5.2.zip"  sparkle:version="3.5.2" length="49674637" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.1</title>
@@ -73,7 +82,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-1</link>
       <pubDate>Wed, 14 Oct 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.1.zip"  sparkle:version="3.5.1" length="49717701" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.1/QuodLibet-3.5.1.zip"  sparkle:version="3.5.1" length="49717701" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.0 (v2)</title>
@@ -82,7 +91,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0</link>
       <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.0-v2.zip"  sparkle:version="3.5.0.1" length="49717615" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.0/QuodLibet-3.5.0-v2.zip"  sparkle:version="3.5.0.1" length="49717615" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.0</title>
@@ -91,7 +100,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0</link>
       <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.5.0.zip"  sparkle:version="3.5.0" length="49719899" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.0/QuodLibet-3.5.0.zip"  sparkle:version="3.5.0" length="49719899" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.4.1 (v2)</title>
@@ -100,7 +109,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1</link>
       <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.4.1.zip"  sparkle:version="3.4.1.1" length="52412407" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.4.1/QuodLibet-3.4.1.zip"  sparkle:version="3.4.1.1" length="52412407" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.4.1</title>
@@ -109,7 +118,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1</link>
       <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/QuodLibet-3.4.1.zip"  sparkle:version="3.4.1" length="52412407" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.4.1/QuodLibet-3.4.1.zip"  sparkle:version="3.4.1" length="52412407" type="application/octet-stream" />
     </item>
 </channel>
 </rss>

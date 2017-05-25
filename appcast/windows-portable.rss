@@ -4,13 +4,22 @@
     <title>Quod Libet / Ex Falso (Windows Portable)</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 3.9.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-0</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.9.0/quodlibet-3.9.0-portable.exe" sparkle:os="windows" sparkle:version="3.9.0" length="35011557" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 3.8.1</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-8-1
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-8-1</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.8.1-portable.exe" sparkle:os="windows" sparkle:version="3.8.1" length="32482918" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.8.1/quodlibet-3.8.1-portable.exe" sparkle:os="windows" sparkle:version="3.8.1" length="32482918" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.8.0</title>
@@ -19,7 +28,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-8-0</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.8.0-portable.exe" sparkle:os="windows" sparkle:version="3.8.0" length="32472433" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.8.0/quodlibet-3.8.0-portable.exe" sparkle:os="windows" sparkle:version="3.8.0" length="32472433" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.7.1</title>
@@ -28,7 +37,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-1</link>
       <pubDate>Sun, 25 Sep 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.7.1-portable.exe" sparkle:os="windows" sparkle:version="3.7.1" length="27834795" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.7.1/quodlibet-3.7.1-portable.exe" sparkle:os="windows" sparkle:version="3.7.1" length="27834795" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.7.0</title>
@@ -37,7 +46,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-7-0</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.7.0-portable.exe" sparkle:os="windows" sparkle:version="3.7.0" length="27359920" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.7.0/quodlibet-3.7.0-portable.exe" sparkle:os="windows" sparkle:version="3.7.0" length="27359920" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.6.1</title>
@@ -46,7 +55,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-1</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.6.1-portable.exe" sparkle:os="windows" sparkle:version="3.6.1" length="27289341" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.6.1/quodlibet-3.6.1-portable.exe" sparkle:os="windows" sparkle:version="3.6.1" length="27289341" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.6.0</title>
@@ -55,7 +64,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-6-0</link>
       <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.6.0-portable.exe" sparkle:os="windows" sparkle:version="3.6.0" length="27285545" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.6.0/quodlibet-3.6.0-portable.exe" sparkle:os="windows" sparkle:version="3.6.0" length="27285545" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.2</title>
@@ -64,7 +73,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.5.2-portable.exe" sparkle:os="windows" sparkle:version="3.5.2" length="31137078" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.2/quodlibet-3.5.2-portable.exe" sparkle:os="windows" sparkle:version="3.5.2" length="31137078" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.1</title>
@@ -73,7 +82,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-1</link>
       <pubDate>Wed, 14 Oct 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.5.1-portable.exe" sparkle:os="windows" sparkle:version="3.5.1" length="31132755" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.1/quodlibet-3.5.1-portable.exe" sparkle:os="windows" sparkle:version="3.5.1" length="31132755" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.5.0</title>
@@ -82,7 +91,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-0</link>
       <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.5.0-portable.exe" sparkle:os="windows" sparkle:version="3.5.0" length="31128581" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.0/quodlibet-3.5.0-portable.exe" sparkle:os="windows" sparkle:version="3.5.0" length="31128581" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 3.4.1</title>
@@ -91,7 +100,7 @@
       </sparkle:releaseNotesLink>
       <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-4-1</link>
       <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      <enclosure url="https://bitbucket.org/lazka/quodlibet/downloads/quodlibet-3.4.1-portable.exe" sparkle:os="windows" sparkle:version="3.4.1" length="31078762" type="application/octet-stream" />
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.4.1/quodlibet-3.4.1-portable.exe" sparkle:os="windows" sparkle:version="3.4.1" length="31078762" type="application/octet-stream" />
     </item>
 </channel>
 </rss>
