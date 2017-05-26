@@ -76,6 +76,15 @@
       <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.6.0/quodlibet-3.6.0.tar.gz" sparkle:os="linux" sparkle:version="3.6.0" length="3166886" type="application/octet-stream" />
     </item>
     <item>
+      <title>Version 3.5.3</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-3
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-3</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.5.3/quodlibet-3.5.3.tar.gz" sparkle:os="linux" sparkle:version="3.5.3" length="3126598" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 3.5.2</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-5-2
