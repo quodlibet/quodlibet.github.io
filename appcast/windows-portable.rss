@@ -4,6 +4,15 @@
     <title>Quod Libet / Ex Falso (Windows Portable)</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 3.9.1</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-1
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-1</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-3.9.1/quodlibet-3.9.1-portable.exe" sparkle:os="windows" sparkle:version="3.9.1" length="34921214" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 3.9.0</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-0
