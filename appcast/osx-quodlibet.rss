@@ -4,6 +4,15 @@
     <title>Quod Libet (OS X)</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 4.0.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-0-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-0-0</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-4.0.0/QuodLibet-4.0.0.dmg"  sparkle:version="4.0.0" length="42958141" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 3.9.1</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-3-9-1
