@@ -4,6 +4,15 @@
     <title>Quod Libet / Ex Falso</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 4.3.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-3-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-3-0</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-4.3.0/quodlibet-4.3.0.tar.gz" sparkle:os="linux" sparkle:version="4.3.0" length="4752295" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 4.2.1</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-2-1
