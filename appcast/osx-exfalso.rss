@@ -4,6 +4,15 @@
     <title>Ex Falso (OS X)</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
+      <title>Version 4.4.0</title>
+      <sparkle:releaseNotesLink>
+        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-4-0
+      </sparkle:releaseNotesLink>
+      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-4-0</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-4.4.0/ExFalso-4.4.0.dmg"  sparkle:version="4.4.0" length="54184583" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 4.3.0</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-3-0
