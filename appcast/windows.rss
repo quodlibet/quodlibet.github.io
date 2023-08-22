@@ -4,15 +4,6 @@
     <title>Quod Libet / Ex Falso (Windows)</title>
     <link>https://quodlibet.readthedocs.io/en/latest/downloads.html</link>
     <item>
-      <title>Version 4.5.0</title>
-      <sparkle:releaseNotesLink>
-        https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-5-0
-      </sparkle:releaseNotesLink>
-      <link>https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-5-0</link>
-      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <enclosure url="https://github.com/quodlibet/quodlibet/releases/download/release-4.5.0/quodlibet-4.5.0-installer.exe" sparkle:os="windows" sparkle:version="4.5.0" length="60906409" type="application/octet-stream" />
-    </item>
-    <item>
       <title>Version 4.4.0</title>
       <sparkle:releaseNotesLink>
         https://quodlibet.readthedocs.io/en/latest/changelog.html#release-4-4-0
